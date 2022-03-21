@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=DM+Serif+Display&family=Homemade+Apple&family=Monoton&family=Poppins&family=Press+Start+2P&display=swap');
+
+
+.subscribe-banner {
+    background-color: #E9AFA3;
+    padding: 1em 4em;
+}
+
+label {
+    color: #363036;
+    font-family: Homemade Apple, cursive;
+}
+
+.submit {
+    border-right: solid;
+    border-bottom: solid;
+    border-top: solid;
+    border-left: none;
+    height: 35px;
+    margin-left: -4px;
+}
+
+.email-input {
+    display: inline;
+    margin-left: 1em;
+    margin-right: none;
+    height: 30px;
+    border: solid;
+    border-right: none;
+}
+
+.email-input:focus {
+    border-right: none;
+    outline: dashed #fff;
+}
+
+input::placeholder {
+    color: #D58678;
+}
+
+/*navigation styles*/
+/*div.nav {
+    background-color: #363031;
+    overflow: hidden;
+}*/
+
+.nav {    
+    background-color: #363031;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition-property: padding;
+    transition-duration: 0.5s;
+}
+
+.nav:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav a:hover {
+    color: #E9AFA3;
+
+}
+
+.logo {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.subtitle {
+    background-color: #363031;
+    font-size: 1.2em;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    margin: none;
+    font-family: 'Homemade Apple', cursive;
+}
