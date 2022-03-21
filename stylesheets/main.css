@@ -1,0 +1,88 @@
+/* color pallete (IDK how to spell)
+#363031 -for text and logo
+https://coolors.co/363031-f9dec9-e9afa3-759eb8
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=DM+Serif+Display&family=Homemade+Apple&family=Monoton&family=Poppins&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=DM+Serif+Display&family=Homemade+Apple&family=Monoton&family=Press+Start+2P&display=swap'); 
+html {
+background-color: #363031;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+body {
+  line-height: 150%;
+  color: #363031;
+  font-size: 100%;
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #363031;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a img:hover {
+  transition:0.3s;
+  opacity: 80%;
+}
+
+a:hover {
+  transition: 0.1s;
+  color: #D58678;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "content about"
+        "l_sidebar l_sidebar"
+        "footer footer";
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  header {
+    width: 100%;
+    margin: 0;
+    grid-area: header;
+  }
+  
+  .featured-recipe, .featured-recipe-photo {
+    grid-area: content;
+  }
+  
+  .recent {
+    grid-area: l_sidebar;
+  }
+
+  .hp-about {
+    grid-area: about;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+
+.fancy
+{
+  font-family: 'Homemade Apple', cursive;
+  color: #D58678;
+}
+.label {
+    color: #363036
+}
